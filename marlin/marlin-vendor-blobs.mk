@@ -83,26 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/diag/IMS.cfg:system/etc/diag/IMS.cfg \
     vendor/google/marlin/proprietary/etc/diag/MarlinSailfish_Radio-generic.cfg:system/etc/diag/MarlinSailfish_Radio-generic.cfg \
     vendor/google/marlin/proprietary/etc/diag/wlan.cfg:system/etc/diag/wlan.cfg \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/google/marlin/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/google/marlin/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/google/marlin/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/google/marlin/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/google/marlin/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/google/marlin/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/google/marlin/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/google/marlin/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/google/marlin/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/google/marlin/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/google/marlin/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/google/marlin/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/google/marlin/proprietary/etc/permissions/com.android.ims.rcsmanager.xml:system/etc/permissions/com.android.ims.rcsmanager.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
@@ -137,7 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/google/marlin/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/google/marlin/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/google/marlin/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/google/marlin/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/google/marlin/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/google/marlin/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/google/marlin/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
@@ -147,7 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/google/marlin/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/google/marlin/proprietary/lib64/libminui.so:system/lib64/libminui.so \
-    vendor/google/marlin/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
+    vendor/google/marlin/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
     vendor/google/marlin/proprietary/lib64/libwifi-hal-qcom.so:system/lib64/libwifi-hal-qcom.so \
     vendor/google/marlin/proprietary/priv-app/VzwLcSilent/lib/arm/libmotricity.so:system/priv-app/VzwLcSilent/lib/arm/libmotricity.so \
     vendor/google/marlin/proprietary/usr/qfipsverify/bootimg.hmac:system/usr/qfipsverify/bootimg.hmac \
