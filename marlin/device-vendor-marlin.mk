@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
     DMService \
     GCS \
     GoogleCarrierConfig \
-    HotwordEnrollment \
+    HotwordEnrollmentWCD9335 \
     OBDM_Permissions \
     obdm_stub \
     OemDmTrigger \
